@@ -85,8 +85,8 @@ void AsyncRgbLedAnalyzerSettings::InitControllerData()
           { 50_us, 50_us, 50_us },
           {
               // low-speed times
-              { { 200_ns, 400_ns, 550_ns }, { 700_ns, 850_ns, 1050_ns } }, // 0-bit times
-              { { 650_ns, 800_ns, 1050_ns }, { 200_ns, 450_ns, 600_ns } }, // 1-bit times
+              { { 212_ns, 312_ns, 412_ns }, { 837_ns, 937_ns, 937_ns } }, // 0-bit times
+              { { 524_ns, 624_ns, 724_ns }, { 524_ns, 624_ns, 724_ns } }, // 1-bit times
           },
           false,
           { {}, {} },
